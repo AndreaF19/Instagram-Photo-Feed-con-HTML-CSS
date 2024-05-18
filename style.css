@@ -1,0 +1,51 @@
+body {
+    background: rgb(228, 222, 222);
+    margin: 0;
+}
+header {
+    background: white;
+    padding: 10px;
+}
+
+div.posteo {
+    background: white;
+    margin-top: 15px;
+}
+
+/*div.b1, div.b2 {
+    display: inline-block;
+}*/
+
+div.posteo .cabezal-posteo div:first-child {
+    display: inline-block;
+    width: 80%;
+   
+}
+
+div.posteo .cabezal-posteo div:last-child { /**solo hay 2*/
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+
+}
+
+h1, h2, p {
+    padding: 5px;
+    font-family: Helvetica;
+
+}
+
+
+div.posteo img {
+    width: 100%;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 15px;
+  
+}
+
+div.contenedor-principal{
+    width: 600px;
+    margin: auto;
+   
+}
+
